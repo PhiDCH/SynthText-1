@@ -33,7 +33,7 @@ for i in range(len(FS.fonts)):
 	models[font.name] = m
 	xs.append(h)
 
-with open('font_px2pt.cp','w') as f:
+with open('data/models/font_px2pt.cp','wb') as f:
 	pkl.dump(models,f)
 #plt.plot(xs,ys[i])
 #plt.show()
